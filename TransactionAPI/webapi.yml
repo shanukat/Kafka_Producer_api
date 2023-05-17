@@ -1,0 +1,42 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapi
+  labels:
+    app: Transaction-webapi
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      service: webapi
+  template:
+    metadata:
+      labels:
+        app: Transaction-webapi
+        service: webapi
+    spec:
+      containers:
+        - name: webapicontainer
+          image: transactionapi
+          ports:
+            - containerPort: 80
+              protocol: TCP
+          env:
+            - name: ASPNETCORE_URLS
+              value: http://+:80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapiservice
+  labels:
+    app: Transaction-webapi
+    service: webapi
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      targetPort : 80
+      protocol: TCP
+  selector:
+    service: webapi

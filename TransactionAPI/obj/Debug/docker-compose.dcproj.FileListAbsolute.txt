@@ -1,0 +1,17 @@
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\TransactionAPI.deps.json
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\TransactionAPI.runtimeconfig.json
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\appsettings.Development.json
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\appsettings.json
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\TransactionAPI.exe
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\TransactionAPI.dll
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\TransactionAPI.pdb
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\Confluent.Kafka.dll
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Acer\OneDrive\Desktop\eBankingPortal\TransactionAPI\bin\Debug\Swashbuckle.AspNetCore.Annotations.dll
