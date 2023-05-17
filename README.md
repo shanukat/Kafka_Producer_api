@@ -24,7 +24,8 @@ Prerequisites
 
 How to install KAFKA in local?
 
-It's easy to setup KAFKA in local using docker containers.create a new file called docker-compose.yml file and creating a new topic inside the yml file as below. KAFKA_CREATE_TOPICS: "MyTransactionTopic:1:1"
+It's easy to setup KAFKA in local using docker containers.first start the Docker Engine and create a new file called docker-compose.yml file and creating a new topic inside the yml file as below. 
+KAFKA_CREATE_TOPICS: "MyTransactionTopic:1:1"
 
 Navigate via the command line to the folder where you saved the docker-compose.yml file. Then, run the following command to start the images:
 docker-compose up
@@ -43,6 +44,24 @@ Implementation
 2) Need to import Confluent.kafka(2.1.1) library using Nuget Package manager or below command line which helps to make C# code understand how to produce and consume messages.
 PM> Install-Package Confluent.Kafka
 3)Implemented Log4net for write log messages- install Microsoft.Extensions.Logging.Log4net.AspNetCore(6.1.0)
+4)Implemented a dot netcore 6.0 webapi app for consume the  transaction messages from partisions of Kafka Topic.
+5)Secured the API using JWT token and API sent a JWT token(Bearer Token) containning the user's unique identity key.
+
+Run & Test:
+. Run the both producer and consumer API from VS 2022 and Use postman to trigger "POST" calls to issue new transaction requests.
+. Once send the messages to kafka topic thru producer API then immediatly consume the messages from consumer API.
+attached here.
+
+Deployment
+
+1) Enable Docker, Docker OS Support Etc, 
+2) Enable kubernets
+3) Created Docker compose file and When running, The images built and containers created as per the docker-compose file
+4) To see the docker desktop context is already added as per below command.
+kubectl config get-contexts
+5)To see docker images run below command
+docker images
+6)
 
 
 
