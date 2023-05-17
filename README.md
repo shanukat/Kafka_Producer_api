@@ -61,7 +61,14 @@ Deployment
 kubectl config get-contexts
 5)To see docker images run below command
 docker images
-6)
+
+6)Create Deployment from Docker Image
+need to add deployment and Service to webapi.yml file and configure
+7) then run-- kubectl apply -f webapi.yml
+8) After that you can see deployment and sevices will be created succussufully
+
+9) then run---> kubectl get services
+Here you will see our service is running on Port 30768 and now we are able to access that using URL http://localhost:30768/Proucer
 
 
 
