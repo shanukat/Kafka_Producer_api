@@ -65,6 +65,8 @@ Above instructions should start a KAFKA server, and you can use the broker local
   <img src="https://github.com/shanukat/Producer_api/blob/master/images/Swagger.jpg" width="800" title="screenshots"> 
    <img src="https://github.com/shanukat/Producer_api/blob/master/images/Unauthorized.jpg" width="800" title="screenshots"> 
  <img src="https://github.com/shanukat/Producer_api/blob/master/images/token.jpg" width="800" title="screenshots"> 
+  <img src="https://github.com/shanukat/Producer_api/blob/master/images/api_token.jpg" width="800" title="screenshots"> 
+
 
 </p>
 
