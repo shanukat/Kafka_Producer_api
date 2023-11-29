@@ -24,7 +24,7 @@ To successfully create the above scenario, the below component has been built.
 
 ### How to install KAFKA in local?
 
-It's easy to setup KAFKA in local using docker containers.first start the Docker Engine and create a new file called **docker-compose.yml** file and creating a new topic inside the yml file as below. 
+It's easy to setup KAFKA in local using docker containers.first start the Docker Engine and create a new file called **docker-compose.yml** file and creating a new topic inside the yml file as below
 
 **KAFKA_CREATE_TOPICS: "MyTransactionTopic:1:1"**
 
